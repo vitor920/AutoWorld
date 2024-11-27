@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoWorld</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>AutoWorld</h1>
+        <nav>
+            <ul>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#tips">Dicas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="welcome-message" style="display:none; margin-top: 20px; font-size: 1.2em; color: #007BFF;">
+            Bem-vindo ao AutoWorld! Explore nosso conteúdo sobre carros.
+        </div>
+
+        <section id="noticias">
+            <h2>Últimas Notícias</h2>
+            <article class="post">
+                <h3>A Nova Era dos Carros Elétricos</h3>
+                <p>Com a crescente demanda por sustentabilidade, os carros elétricos estão dominando as estradas. Descubra as últimas inovações e tendências.</p>
+                <div class="interaction">
+                    <button class="like-btn">👍 Like</button>
+                    <span class="like-count">0</span>
+                    <button class="toggle-comments-btn">💬 Comentários</button>
+                </div>
+                <div class="comments" style="display:none;">
+                    <form class="comment-form">
+                        <textarea placeholder="Digite seu comentário aqui..." required></textarea>
+                        <button type="submit">Enviar Comentário</button>
+                    </form>
+                    <div class="comment-output"></div>
+                </div>
+            </article>
+            <article class="post">
+                <h3>Os Carros do Futuro: O Que Esperar?</h3>
+                <p>Explore como a tecnologia está moldando o futuro da indústria automobilística e quais recursos incríveis podemos esperar nos próximos anos.</p>
+                <div class="interaction">
+                    <button class="like-btn">👍 Like</button>
+                    <span class="like-count">0</span>
+                    <button class="toggle-comments-btn">💬 Comentários</button>
+                </div>
+                <div class="comments" style="display:none;">
+                    <form class="comment-form">
+                        <textarea placeholder="Digite seu comentário aqui..." required></textarea>
+                        <button type="submit">Enviar Comentário</button>
+                    </form>
+                    <div class="comment-output"></div>
+                </div>
+            </article>
+        </section>
+        
+        <!-- Outras seções de Reviews e Dicas se mantêm iguais -->
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AutoWorld | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
